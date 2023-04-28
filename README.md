@@ -38,6 +38,7 @@ O SPA-universe é um desafio proposto pela Rocket para praticar conhecimentos av
 - Single Page Application
 - ES6 Modules
 - Classes no JS
+- Programa Orientado a Objetos
 - Servidor interno com node
 
 ## 🔖 Layout
