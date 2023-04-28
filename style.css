@@ -1,0 +1,138 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  --base-color:240;
+  --fc-primary:#fff;
+  --fc-secondary:hsla(var(--base-color), 9%, 89%, 1);
+  --fc-nav:hsla(var(--base-color), 6%, 58%, 1);
+  --fc-button:hsla(194, 97%, 31%, 1);
+
+  font-size: 62.5%;
+}
+
+html{
+  overflow: hidden;
+}
+body{
+  background-image: url('./assets/home-bg.png');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 100vh;
+}
+.page{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.8rem;
+  color: var(--fc-secondary);
+}
+
+/* nav */
+nav{
+  margin: 3rem 0 0 5rem;
+}
+nav a{
+  text-decoration: none;
+  color: var(--fc-nav);
+  font-size: large;
+}
+nav img{
+  filter: invert();
+}
+ul{
+  list-style: none;
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+/* main */
+main{
+  display: grid;
+  height: 80vh;
+}
+h1{
+  font-size: clamp(4rem, 5rem + 1vw, 6rem);
+  color: var(--fc-primary);
+}
+p{
+  line-height: 3rem;
+}
+
+/* páginas */
+.home-page{
+  justify-self: center;
+  align-self: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.6rem;
+}
+.universe-page{
+  margin: 10rem 2rem 0 10rem;
+  padding: 1rem 1rem 10rem 1rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1.6rem;
+
+  max-width: 70rem;
+}
+.exploration-page{
+  margin: 10rem 2rem 0 10rem;
+  padding: 1rem 1rem 10rem 1rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1.6rem;
+
+  max-width: 70rem;
+}
+.error-404{
+  margin: 10rem 2rem 0 10rem;
+  padding: 1rem 1rem 10rem 1rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 2rem;
+
+  max-width: 70rem;
+}
+
+.selected{
+  font-weight: bold;
+  color: var(--fc-primary);
+}
+
+button{
+  background-color: transparent;
+  border: 2px solid var(--fc-primary);
+  border-radius: .5rem;
+
+  padding: 1.2rem 3rem;
+
+  text-transform: uppercase;
+  color: var(--fc-primary);
+  font-weight: bold;
+  font-size: 1.3rem;
+
+  cursor: pointer;
+}
+button:hover{
+  background-color: var(--fc-primary);
+  border: transparent 2px solid;
+
+  color: var(--fc-button);
+}
