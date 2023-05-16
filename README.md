@@ -2,7 +2,7 @@
 
 <p align="center">
 Projeto de uma página web com um nav utilizando o modelo SPA (Single Page Application).<br>
-Disponível aqui: https://github.com/LucasLiraSilva/SPA-Universe
+Disponível aqui: https://github.com/lucaslirah/SPA-Universe
 </p>
 
 <p align="center">
